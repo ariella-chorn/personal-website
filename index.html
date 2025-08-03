@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariella Chorn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Time Section -->
+        <div class="time-section">
+            <div class="local-time">
+                <span class="time-label">my local time</span>
+                <div class="time-display" id="time">10:20:27</div>
+            </div>
+            <div class="theme-toggle">☀️</div>
+        </div>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Introduction -->
+            <div class="intro">
+                <p>👋 hi! i'm <a href="https://www.linkedin.com/in/ariellachorn/" class="link" target="_blank">Ari</a></p>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="section-nav">
+                <a href="#home" class="nav-link active" data-section="home">home</a>
+                <span class="nav-separator">/</span>
+                <a href="#experience" class="nav-link" data-section="experience">experience</a>
+                <span class="nav-separator">/</span>
+                <a href="#projects" class="nav-link" data-section="projects">projects</a>
+                <span class="nav-separator">/</span>
+                <a href="#blog" class="nav-link" data-section="blog">blog</a>
+                <span class="nav-separator">/</span>
+                <a href="#books" class="nav-link" data-section="books">books</a>
+            </nav>
+
+            <!-- Home Section -->
+            <div class="content-section" id="home">
+                <p><strong>— i am —</strong></p>
+                <p>inherently fascinated with people. i never tire of trying to understand the constructs that formulate a person's worldviews. i am particularly interested in human psychology as it pertains to teamwork.</p>
+                
+                <div style="margin-bottom: 20px;"></div>
+                
+                <p><strong>— i believe —</strong></p>
+                <p>the most advantageous meaning we can ascribe to the reason we are sentient monkeys on a floating rock in space is to reach our maximum potential.</p>
+                
+                <div style="margin-bottom: 40px;"></div>
+                
+                <p><strong>currently reading:</strong> enders game</p>
+                
+                <div style="margin-bottom: 40px;"></div>
+                
+                <p style="color: var(--text-secondary); font-style: italic;"><strong>last updated:</strong> august 1, 2025</p>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="content-section" id="experience" style="display: none;">
+                <h2>experience:</h2>
+                <div class="experience-item">
+                    <h3>strategic business analyst</h3>
+                    <p class="company">exodigo • 2024 - present</p>
+                    <p>built lead gen systems to engage infrastructure stakeholders, analyzed procurement documents to tailor outreach and differentiate positioning, optimized CRM workflows for outbound campaign performance, developed tools for account planning and sales enablement.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>co-founder & ceo</h3>
+                    <p class="company">koala • 2021 - 2023</p>
+                    <p>led product development for digital pet care app, conducted 50+ customer discovery interviews to define ICP and GTM strategy, analyzed user data to prioritize product development, built backend ops systems for investor diligence, raised pre-seed funding via Techstars.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>business analyst intern</h3>
+                    <p class="company">elron ventures • 2020 - 2021</p>
+                    <p>conducted market research and competitive analysis on early-stage cybersecurity and SaaS startups to inform investment decisions.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>operations analyst intern</h3>
+                    <p class="company">microsoft • 2020 - 2021</p>
+                    <p>analyzed technical recruiting data to identify drivers of interview success and improve hiring processes for the Windows Cyber Defense Team.</p>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="content-section" id="projects" style="display: none;">
+                <h2>projects:</h2>
+                <div class="project-item">
+                    <h3><a href="#" class="link project-link" data-project="lead-gen">outbound lead generation engine</a></h3>
+                    <p>outbound campaign automation and lead generation system developed for B2B transportation infrastructure technology company</p>
+                    <div class="project-tech">hubspot crm • zoominfo + apollo • monday.com</div>
+                    <div class="project-details" id="lead-gen" style="display: none;">
+                        <div class="project-overview">
+                            <h4>project overview</h4>
+                            <div class="overview-section">
+                                <h5>challenge:</h5>
+                                <p>the company lacked a standardized outbound process, resulting in inconsistent lead generation and missed opportunities with key infrastructure stakeholders.</p>
+                            </div>
+                            <div class="overview-section">
+                                <h5>goal:</h5>
+                                <p>drive strategic partnerships with infrastructure owners and prime contractors through targeted, data-driven outreach.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="project-section">
+                            <h4>strategic framework</h4>
+                            <ul>
+                                <li>built a structured outbound framework to streamline execution and centralize tracking</li>
+                                <li>launched targeted HubSpot campaigns to establish baseline performance data</li>
+                                <li>optimized lead sourcing using campaign insights to tailor outreach across customer personas</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-section">
+                            <h4>ai-assisted enhancements</h4>
+                            <ul>
+                                <li><strong>custom GPT messaging:</strong> built a tailored messaging system aligned with the company's value proposition and strategic differentiators</li>
+                                <li><strong>procurement analysis:</strong> used Perplexity to extract insights from bid documents and improve competitive positioning in outreach</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-section">
+                            <h4>performance optimization</h4>
+                            <ul>
+                                <li>tracked engagement metrics across all outbound efforts</li>
+                                <li>used campaign data to refine audience targeting and message relevance</li>
+                                <li>continuously improved persona segmentation based on response patterns</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-section">
+                            <h4>key results</h4>
+                            <div class="result-item">
+                                <h5>38% increase in reply rates:</h5>
+                                <p>achieved over four months through structured outreach and data-informed messaging.</p>
+                            </div>
+                            <div class="result-item">
+                                <h5>3 strategic opportunities generated:</h5>
+                                <p>within one month: a formal quote request, a major infrastructure teaming opportunity, and a Lunch & Learn invitation with a new account.</p>
+                            </div>
+                            <div class="result-item">
+                                <h5>repeatable process built:</h5>
+                                <p>established a scalable outbound system with automated tracking, persona-aligned messaging, and a feedback loop for continuous improvement.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="project-section">
+                            <h4>key insights</h4>
+                            <ul>
+                                <li><strong>process before tooling:</strong> system design and structure drove more impact than any single technology</li>
+                                <li><strong>ai as assistive leverage:</strong> GPT and Perplexity enhanced research and personalization but did not replace strategic direction</li>
+                                <li><strong>test, measure, iterate:</strong> campaign performance improved consistently through A/B testing and persona-level refinement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <h3><a href="#" class="link project-link" data-project="case-study-1">case study</a></h3>
+                    <p>improved lead-task matching in a services marketplace by reducing misclassification, decreasing churn, and increasing satisfaction across homeowners and professionals.</p>
+                    <div class="project-tech">data analysis • market research • powerpoint</div>
+                    <div class="project-details" id="case-study-1" style="display: none;">
+                        <!-- Detailed content will go here -->
+                    </div>
+                </div>
+                <div class="project-item">
+                    <h3><a href="#" class="link project-link" data-project="case-study-2">case study</a></h3>
+                    <p>designed and launched a city-specific widget delivery pilot that balanced speed, quality, and scale by tailoring operational strategy to distinct market challenges.</p>
+                    <div class="project-tech">data analysis • supply chain logistics</div>
+                    <div class="project-details" id="case-study-2" style="display: none;">
+                        <!-- Detailed content will go here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Section -->
+            <div class="content-section" id="blog" style="display: none;">
+                <h2>blog:</h2>
+                <div class="blog-item">
+                    <h3><a href="#" class="link blog-link" data-blog="building-blocks-1">the building blocks (pt.1)</a></h3>
+                    <p class="blog-date">april 17, 2024</p>
+                    <p>the framework for thinking like a fund-maker</p>
+                    <div class="blog-details" id="building-blocks-1" style="display: none;">
+                        <div class="blog-content">
+                            <h1>In this piece we will cover:</h1>
+                            <ul>
+                                <li>The Difference Between a Startup and a Business</li>
+                                <li>Venture Capital Psychology (an overview)</li>
+                                <li>How to Validate Whether A Problem Is Worth Solving</li>
+                                <li>A Tangent: Achieving Unicorn Status</li>
+                                <li>First-Time Founder Mistakes & Lessons Learned</li>
+                            </ul>
+                            
+                            <p><em>Note: The following framework is relevant to anyone who wants to build a business or a startup, but it is specifically geared toward those founders looking to build a Venture Capital-backable startup.</em></p>
+                            
+                            <p>What does that mean? What is the difference between a business and a startup? What constitutes a VC-backable startup?</p>
+                            
+                            <h1>Startup vs. Regular Business</h1>
+                            <p>There are some distinct differences between a startup and a regular business. The first is revenue expectations. The goal of a business is to generate revenue from day one; the startup focuses first and foremost on gaining users for its product or service. For the startup, this may result in immediate revenue-generation, but it is not expected nor necessarily the goal, especially if it gets in the way of rapid and exponential growth.</p>
+                            
+                            <p>This leads us to another significant difference: the rate of growth. A conventional business typically experiences slower but steady growth, aiming to gradually increase its margins over time. In contrast, a startup's objective is to achieve exponential growth within a short timeframe by gaining widespread adoption of its product or service.</p>
+                            
+                            <p>This underscores why many startups pursue Venture Capital funding. The ambitious growth objectives of startups often necessitate external financing. This capital is crucial to sustain founders, scale their team, and meet the substantial production demands required for rapid expansion. A startup founder might prioritize market share acquisition over immediate revenue generation in pursuit of growth.</p>
+                            
+                            <h1>Venture Capital Psychology (a quick overview)</h1>
+                            <p>When a VC looks at a potential investment opportunity, the first question they ask themselves is this: Does this startup have the potential to be a fund maker (a company that returns the entire fund)?</p>
+                            
+                            <p>In an extremely oversimplified and non-exhaustive summary of the basic fund structure of a venture capital firm:</p>
+                            <ul>
+                                <li>Within a VC firm, there are people called Limited Partners that supply the fund with capital. These LPs can be family offices, pension funds, university funds and / or angel investors (high-net or ultra high-net worth individuals).</li>
+                                <li>The General Partners are those individuals working within the fund that manage the money for the LPs. They invest on behalf of the LPs. The GPs make the investment decisions - essentially, whether or not to invest in your startup.</li>
+                                <li>Every fund generally has a time limit that usually equates to approximately ten years in which they need to return the fund - this is the time frame within which they need to invest and have provided returns for the LPs.</li>
+                            </ul>
+                            
+                            <h1>A VC wants to see the following from an early-stage startup:</h1>
+                            <ul>
+                                <li>A clear and validated need.</li>
+                                <li>In a hot and growing market hungry for a solution. Here the market potential should be in the billions of dollars.</li>
+                                <li>A competitive founding team who are the perfect people to capitalize on the market opportunity.</li>
+                                <li>A competitive edge - also known as the moat. This is something that you know that your competitors don't (which gives you a competitive value proposition), or an advantage (technological or otherwise) that you have over your competitors.</li>
+                                <li>Some semblance of a business model - an idea of how you will make money.</li>
+                                <li>A competitive and effective go-to-market (GTM) strategy.</li>
+                                <li>Traction - the team has been hustling and there has been clear evidence of progression.</li>
+                            </ul>
+                            
+                            <p>To be considered a VC-backable startup, you must understand what kind of investment a Venture Capitalist is looking to make - mainly, one that nets the largest ROI possible, on the order of hundreds of millions of dollars.</p>
+                            
+                            <p>There are only a handful of things an early-stage founder should be putting the majority of their time, energy, and effort toward. I have listed them as questions for you to ask yourself.</p>
+                            
+                            <h1>Ideation - Validating the Problem</h1>
+                            <ul>
+                                <li>Have you discovered a problem worth solving?</li>
+                                <li>Have you conducted unbiased customer discovery interviews with potential customers (who experience the problem worth solving)?</li>
+                                <li>Have you outlined and established your Ideal Customer Profile (ICP)?</li>
+                            </ul>
+                            
+                            <h1>Minimal Viable Product (MVP) - Validating the Solution</h1>
+                            <ul>
+                                <li>Have you come up with a solution hypothesis (a potential solution to the problem you are looking to solve)?</li>
+                                <li>Have you built a Minimal Viable Product (MVP) that will help you establish whether or not your solution is what your ICP is not only looking for, but willing to pay for?</li>
+                            </ul>
+                            
+                            <p>In this piece, we will be focusing on the first question and doing a deep-dive into its underlying components and nuances.</p>
+                            
+                            <h1>Have you discovered a problem worth solving?</h1>
+                            <p>To make sure, you have to go through the problem validation process. There will be some nuances here. One could argue that any problem is inherently worth solving if it positively impacts even one person's life, but in this framework, we are focusing specifically on problems that lead to billion-dollar ideas. We are focusing on the problems that, if solved, will provide the problem-solver hundreds of millions of dollars in Annual Recurring Revenue (ARR).</p>
+                            
+                            <p><em>[Remember, this piece is geared toward anyone who wants to build a business or a startup, but specifically it is addressing those individuals that wish to create a venture capital-backable startup, hence the specificity toward solving big problems that net big returns if solved.]</em></p>
+                            
+                            <h2>The Problem Validation Framework</h2>
+                            <ul>
+                                <li>Is the problem you are solving extremely painful to the entity experiencing it?</li>
+                                <li>Are there many entities that experience this problem?</li>
+                                <li>Of those entities, is there a significant chunk willing and able to pay for a solution to solve it?</li>
+                            </ul>
+                            
+                            <h2>Is the problem you are solving extremely painful to the entity experiencing it?</h2>
+                            <p>In relation to this criteria, there is terminology that is often used to describe the type of solution a founder is inventing. In the entrepreneurial space you may hear the question asked of you, "is this [solution / product] a vitamin or a medicine?"</p>
+                            
+                            <p>A solution or product is a vitamin if it is "nice to have." It's something people and organizations can live without.</p>
+                            
+                            <p>Conversely, a product that is a medicine is essential - in the startup realm, it is something that saves time and money in a quantifiable and scalable way. In this instance, the decision to part with the money it costs to acquire the solution is a no-brainer.</p>
+                            
+                            <p>There are interesting exceptions to this rule. For example, every social media app, such as Instagram, Snapchat, and yes, even TikTok, is inherently a vitamin - nobody needs these platforms to survive (barring those who have created businesses reliant on them, but again, prior to the existence of these platforms, this was not the case). However, these platforms became akin to a medicine due to their addictive qualities.</p>
+                            
+                            <p>The pain in this instance is human beings' psychological tendency to avoid the fear-of-missing-out (FOMO), and our need for connectedness - we succumb to the social pressure of being on these platforms. And if you are someone who has established a revenue-generating presence on these platforms, you are all the more embedded within them.</p>
+                            
+                            <p>Today, they have evolved into self-made medicine, because they remedy the very pain that they cause.</p>
+                            
+                            <p>Generally, a solution that is a vitamin is solving a problem that is not very painful, while a solution that is a medicine is solving a very painful problem.</p>
+                            
+                            <p>But how do you know if the problem someone is experiencing is very painful?</p>
+                            
+                            <p>The ramifications of the answer to this question determine the future difficulty you'll have gaining customers and market share, your level of competitiveness in the market, and your ability to hit your projected company milestones.</p>
+                            
+                            <p>Unless you are building something you believe will prey on the psychology of human minds - unless you are inventing cane sugar - it is imperative that you choose a problem that is extremely painful for the entity experiencing it.</p>
+                            
+                            <p>We will go over how to understand whether someone is experiencing a painful problem in a future piece which discusses how to conduct unbiased Customer Discovery Interviews.</p>
+                            
+                            <p>Are there many of those entities that experience the very painful problem?</p>
+                            <p>The problem should be extremely painful to the entity experiencing it, and there should be a large number of that entity who experience the painful problem.</p>
+                            
+                            <p>In a Business-to-Consumer (B2C) or Direct-to-Consumer (D2C) narrative, this means many (as in millions) of people experience the painful problem.</p>
+                            
+                            <p>In a Business-to-Business (B2B) or Business-to-Government (B2G) narrative this means that a few large corporations with larger budgets experience the painful problem.</p>
+                            
+                            <p>The reason for this distinction is because, depending on the type of entity you are targeting as your customer, you are playing a simple numbers game.</p>
+                            
+                            <p>If you are selling a direct-to-consumer product and aiming for $100 million in annual recurring revenue (ARR), achieving this through a $10/month subscription model would require approximately 833,333 paying customers ($8.33 million per month / $10 per customer).</p>
+                            
+                            <p>Alternatively, if you are targeting large corporations with large wallets, you need fewer customers paying you a higher monthly or yearly dollar amount to equal the same ARR.</p>
+                            
+                            <p>Why $100 million in ARR? This is an exceptionally hard milestone for startups to achieve. Today, I would argue that achieving $100M in ARR should be the metric by which a venture is considered a unicorn.</p>
+                            
+                            <h1>Cue le Tangent</h1>
+                            <p>First, let's talk about what it means to achieve unicorn status. "Unicorn" is the term used in the venture capital industry to describe a startup company with a value of over $1 billion. The term was first coined by venture capitalist Aileen Lee in 2013, published in the article titled Welcome To The Unicorn Club: Learning From Billion-Dollar Startups.</p>
+                            
+                            <p>While unicorn status is still defined by this metric, I believe it is imperative to recognize that valuations can be influenced by market dynamics and investor behavior.</p>
+                            
+                            <p>Such fluctuations can influence the amount of dry powder, or accessible capital, that an investor has to deploy. The abundance of cheap capital can potentially result in a slackening of the stringent due diligence process typically employed by VCs when evaluating investment opportunities.</p>
+                            
+                            <p><strong>POV, 2021:</strong><br>
+                            Me: Pitching my new startup idea about Tinder for cats in the Metaverse.<br>
+                            Investor: Take my money!</p>
+                            
+                            <p>In 2013, at the time of publishing, Lee approximated that only .07% or, 1 in every 1,538 startups, achieved unicorn status. The rate of companies who hold the title "unicorn" has steadily increased since then. However, 2021 produced an unprecedented number of companies valued as unicorns, exceeding the sum total of the five previous years.</p>
+                            
+                            <p>In Q2 of 2023, as the capital surplus shifted to a deficit, there was a notable spike in down rounds, reaching 15.2% of completed rounds, marking the highest proportion observed in Pitchbook's dataset since 2013.</p>
+                            
+                            <h2>How are valuations approximated?</h2>
+                            <p>The valuation of an established company is based on its historical performance, whereas a startup's valuation hinges on its growth prospects and anticipated long-term development within its target market.</p>
+                            
+                            <p>Unicorn valuations typically arise from funding rounds by prominent venture capital firms investing in startups. Another notable pathway occurs when a larger company acquires them, effectively assigning a unicorn valuation upon purchase. Examples include Unilever's acquisition of Dollar Shave Club and Facebook's acquisition of Instagram for $1 billion each, elevating Dollar Shave Club and Instagram to unicorn status.</p>
+                            
+                            <p>In my research for this piece, I came across an interesting article titled The $100M ARR club, written in 2019 by Alex Wilhelm. The piece cites the significance of this hard-to-achieve milestone as a metric by which success should be measured today. Wilhelm argues that at the time of the moniker's inception, a private company valued at over $1 billion was a rare sighting, but that in years hence, some startups have earned the status without having a business at all (check out Magic Leap as an example).</p>
+                            
+                            <p>"There is a club of private companies that are really something, namely private ones that have managed to reach the $100 million annual recurring revenue (ARR) threshold. It's not a large group, as startups that tend to cross the $100 million ARR mark are well on the path to going public." – Alex Wilhelm</p>
+                            
+                            <p>To conclude, you have a metric that's outdated because it is based on a fixed-dollar system, and those dollars ain't fixed no more.</p>
+                            
+                            <h1>End Tangent</h1>
+                            <p>To be clear, for early-stage ventures raising pre-seed and seed money (and even for ventures considered growth-stage raising Series A and above) this is not a metric you have to achieve before you raise - quite the opposite. But this should be the venture's potential. Remember, you are selling the dream to the VC that you have the potential to be a unicorn. This example, therefore, is representative of the scale at which an entrepreneur should be thinking.</p>
+                            
+                            <p>The question to ask: Is the market I am targeting big enough for this type of revenue generation to even be a possibility?</p>
+                            
+                            <p>You might be thinking, but there are a lot of well-known direct-to-consumer companies who do not generate revenue from their consumers. You would be correct. There are many different types of business models a startup can implement, and many different "lines of credit" that can be taken advantage of. But know this: if you are not paying for the product, you are the product. To be more explicit, you are paying for the usage of the product with your data.</p>
+                            
+                            <p>I am not advocating for you as the founder to have a fully fleshed out business model - this is nearly impossible in the beginning phases of any startup company. But, if you aren't making a product whose prime metric is usage (which in some ways enables you to put off who and how you're going to charge, as long as you accumulate a large enough pool of users - and therefore a large enough pool of data and eyeballs to market) you should have some inkling of how you are going to make money.</p>
+                            
+                            <p>All this talk of market share and potential revenue has not even touched upon your industry landscape, competitive edge, the market share the current largest players in the space hold, etc. We will get to that in a later piece.</p>
+                            
+                            <h1>Of those many entities that experience the very painful problem, are they willing and able to pay for a solution to solve it?</h1>
+                            <p>Your ideal customer should not only be willing to pay, but have the ability to pay. If you are promoting a luxury product to lower socioeconomic individuals, they may want your product and be willing to pay for it, but they won't have the means to.</p>
+                            
+                            <p>Similarly, when targeting large corporations, you not only have to validate that the organization wants your product, but that they have a percentage of their budget allocated to the purchase of such a product or solution (and if not, you should make sure that the sales cycle to divert a portion of the budget to your solution is not centuries long).</p>
+                            
+                            <h1>First-Time Founder Mistakes & Lessons Learned</h1>
+                            <p>In the early ideation phase of Koala, I delved into market research with a vengeance. I had the incorrect and naive assumption that I would be able to gather all relevant information about the pet industry, and specifically about pet parents, through research and data already present on the internet.</p>
+                            
+                            <p>The exercise was not wholly invaluable - a startup founder should make it a top priority to know the ins and outs of their industry - specifically industry challenges, trends, competitors, major players, and lines of credit, to name a few components.</p>
+                            
+                            <p>However, there were a few major mistakes I made in the initial phases of the ideation process.</p>
+                            
+                            <p>I gathered all relevant information about the industry, spending hours scouring the bowels of the internet to create a comprehensive landscape of the past, present, and potential future of everything pets. Along the way I made some very interesting discoveries.</p>
+                            
+                            <p>The pet industry comprises the entire ecosystem of what it means to have a pet. This includes; pet parents, veterinarians, pet insurance companies, daycares, bakeries, saloons, food, and toys - and there are various other subcomponents as well. For instance, within the food sector of the pet industry, there are trends that pop up in connection with the certain types of foods specific demographics of pet parents are willing to feed their fur babies - organic, sustainably sourced, vegan, bug-based (yes, that is a thing). You get the idea. There was tons of information to be gathered and parsed through during this stage.</p>
+                            
+                            <p>Eventually, I stumbled upon various bits of data that alluded to a larger problem, or trend, that was happening in the industry. I strung these factual pieces of data together and made an assumption. As stated above, startups are just layers of assumptions and hypotheses that need to be tested.</p>
+                            
+                            <p>I made an assumption, which was my problem-hypothesis. I essentially gathered data purely via market research and defined a problem from within that data.</p>
+                            
+                            <p>I came across a challenge the industry was facing, and then of my own accord, created a problem-hypothesis from the potential second-order effects of the challenge. I did not test this assumption in any way, shape, or form (cue high-pitched scream). I assumed that this problem was highly painful. I essentially bypassed the entirety of the problem validation phase.</p>
+                            
+                            <p>In doing so, I also made another mistake. I never defined, or even tried to find, an ideal customer profile. Meaning, after making the assumption that the problem I came across was worth solving, I then made up who was most negatively affected by it. I didn't make this up completely, but I only used data available on the internet (from reputable sources, mind you) to outline this entity.</p>
+                            
+                            <p>In essence, I was now on trajectory to spend precious time, energy, and effort solving a problem that I had not validated as worth solving, for an undefined customer - we will analyze the repercussions of pursuing an undefined customer profile in the next piece in the series.</p>
+                            
+                            <p>Back in the day, I attempted the difficult exercise of coming up with a valuation for the pre-revenue venture that was Koala. I fleshed out both Top-Down and Bottom-Up analyses of the market potential and attempted to perform discounted cash flow analyses by building various Profit and Loss statements estimating the timing and cost of customer acquisition.</p>
+                            
+                            <p>During the process I came across a piece of writing that I believe would be sacrilege not to share with you.</p>
+                            
+                            <h1>How is pre-money valuation determined?</h1>
+                            <p><em>On each full moon that falls on the 29th of February, a night rainbow will appear somewhere near Sand Hill Road and guide those who know to look for it toward an ethereal portal flanked by golden unicorns wearing VR headsets. Those who pass through the portal may briefly gaze upon a book, bound in banana leaves and shimmering in the moonlight, which lays out instructions for arriving at pre-money valuation for a pre-revenue company.</em></p>
+                            
+                            <p>I hope you found that as enjoyable as I did.</p>
+                            
+                            <h1>Credit</h1>
+                            <p>The content in my newsletter is an amalgamation of the knowledge I've gathered from my own personal experiences as a founder (making mistakes and learning lessons the hard way), as well as the various organizations and individuals that have provided me an invaluable amount of information, advice, and general knowledge.</p>
+                            
+                            <p>Therefore I extend a very hearty thanks to:</p>
+                            <ul>
+                                <li>The Zell Entrepreneurship program at Reichman University for providing much of the framework I came to know and implement throughout my startup journey. This program is supported in vision and funding by the late Sam Zell of Chicago.</li>
+                                <li>Danny Leshem, serial entrepreneur, investor, and lecturer at the Zell program who first introduced me to the concept of the different types of organizations and customers a startup could target (individual consumer versus business).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <h3><a href="#" class="link blog-link" data-blog="building-blocks-2">the building blocks (pt. 2)</a></h3>
+                    <p class="blog-date">may 3, 2024</p>
+                    <p>identifying your ideal customer profile (ICP)</p>
+                    <div class="blog-details" id="building-blocks-2" style="display: none;">
+                        <div class="blog-content">
+                            <h1>In this piece we will cover:</h1>
+                            <ul>
+                                <li>Defining an Ideal Customer Profile (ICP)</li>
+                                <li>How to Conduct Unbiased Customer Discovery Interviews</li>
+                                <li>First-Time Founder Mistakes & Lessons Learned</li>
+                            </ul>
+                            
+                            <h1>The Building Blocks (Pt. 1) Recap</h1>
+                            <p>In The Building Blocks (Pt. 1) we covered what an early-stage founder should be putting the majority of their time, energy, and effort toward (specifically in the ideation phase of their startup-building journey).</p>
+                            
+                            <p>I listed these components as questions for you to ask yourself:</p>
+                            
+                            <h2>Ideation - Validating the Problem</h2>
+                            <ul>
+                                <li>Have you discovered a problem worth solving?</li>
+                                <li>Have you conducted unbiased customer discovery interviews with potential customers (who experience the problem worth solving)?</li>
+                                <li>Have you outlined and established your Ideal Customer Profile (ICP)?</li>
+                            </ul>
+                            
+                            <h2>Minimal Viable Product (MVP) - Validating the Solution</h2>
+                            <ul>
+                                <li>Have you established a solution hypothesis (a potential solution to the problem you are looking to solve)?</li>
+                                <li>Have you built a minimal viable product (MVP) that will help you establish whether your solution is what your ICP wants and is willing to pay for?</li>
+                            </ul>
+                            
+                            <p>In the previous edition, we covered question 1. In this edition, we will delve into questions 2 and 3.</p>
+                            
+                            <p>Discovering a problem worth solving and an Ideal Customer Profile (ICP) are intricately linked. Why? Because the problem worth solving is going to be worth solving for someone specific, and you need to figure out who that entity is.</p>
+                            
+                            <p>During my time at Techstars, I had the pleasure of attending a lecture by T.A. McCann, currently the Managing Director of venture studio Pioneer Square Labs. You can learn from McCann via his personal website. Additionally, if you navigate to Founder Resources you will be able to see the exact presentation McCann used during our Techstars lecture, titled "Customer Discovery and Development" (you will need to subscribe to be able to see it (its free) - totally worth it in my opinion).</p>
+                            
+                            <p>The following is a blend of learnings and information I obtained in the classroom, and my personal experience conducting interviews and mapping out an ideal customer profile during my time building Koala.</p>
+                            
+                            <h1>Customer Discovery & Validation</h1>
+                            <p>So, you've discovered a problem worth solving. IPO time, baby! Now it is time to define your ✨ Ideal Customer Profile. ✨</p>
+                            
+                            <p>What is an Ideal Customer Profile? It is the entity that suffers from the problem you are looking to solve, and who is willing and able to pay for your solution.</p>
+                            
+                            <p><em>Note: You might already be thinking to yourself, "but many products cater to many different types of customers." You would be correct.</em></p>
+                            
+                            <p>However, to provide an example directly from Koala, defining the target audience simply as 'pet parents' (which is what I did) makes it extremely difficult to hone in on who among pet parents is the most viable customer. There are a wide range of demographics that encompass the people on planet Earth who have a pet.</p>
+                            
+                            <p>Suffice to say, a 35-year-old mom of two who lives in the suburbs might have different priorities and financial capabilities compared to a tech bro in the heart of San Francisco who adopted a Covid puppy.</p>
+                            
+                            <p>While this doesn't imply that the ideal customer profile won't eventually expand to encompass various types of customers, defining one ICP in the early stages of the ideation process allows the founder to chart a focused course for the startup's trajectory.</p>
+                            
+                            <p>In some cases, the entire purpose of the company revolves around two separate ICPs - the distinction often being who uses the product and who pays for it.</p>
+                            
+                            <p>For example, a product designed for infants must cater to the needs and preferences of the infants themselves, who are the users. Simultaneously, however, the product must also address the various concerns (such as ensuring safety) of the infant's parent, who is the buyer.</p>
+                            
+                            <p>Additionally, every company which creates a marketplace to facilitate relationships between entities by definition has more than one ICP. Most often the ICP categories are the seller and the buyer. The most classic examples being Amazon, Shopify, Etsy, Uber, and Lyft among many others.</p>
+                            
+                            <h1>Customer Discovery</h1>
+                            <p>Customer discovery interviews are about testing your hypotheses via pattern-matching to understand your potential customer's problems and needs.</p>
+                            
+                            <p>You should start by outlining your hypotheses around the identity of your ideal customer profile (geographic location, gender, age, socio-economic status, relationship status, etc) and then validate that the person with whom you are conducting the interview matches that description. Additionally, you need to ensure they are seeking a solution to the problem you believe they have.</p>
+                            
+                            <h1>Customer Validation</h1>
+                            <p>Customer Validation happens before you churn out a minimal viable product (MVP). Your MVP will be testing your hypotheses around your potential solution to the problem. Building an MVP is part of your solution-validation phase, whereas customer validation is still within the problem-validation phase of ideation.</p>
+                            
+                            <p>Therefore, when building an MVP it is imperative to identify the ICP (say that five times fast) - otherwise you will find yourself expending energy building a potential solution for a problem afflicting an undefined customer. We will further explore why outlining an ICP is crucial not only when building your MVP, but for the entire trajectory of your company in the sections below.</p>
+                            
+                            <p>Following the customer validation phase, you should have a clear understanding of:</p>
+                            <ul>
+                                <li>Whether this customer suffers from the problem.</li>
+                                <li>Whether this customer who is suffering from the problem will actually pay you money for your solution.</li>
+                            </ul>
+                            
+                            <h1>How to Conduct Unbiased Customer Discovery Interviews</h1>
+                            <p>The emphasis here is on unbiasedness because it is extremely difficult to do and requires conscious upkeep.</p>
+                            
+                            <p>I could not call myself an upstanding pupil of entrepreneurship if I did not first mention Rob Fitzpatrick's The Mom Test. This book focuses on the core techniques of conducting unbiased customer discovery interviews - including practical scripts you can implement.</p>
+                            
+                            <p>The main point Fitzpatrick makes is, a large portion of the people you interview will have inherent people-pleasing tendencies which can decrease their level of honesty. You need to be able to strategically navigate this by providing your interviewees room to be honest with you, and not allow yourself to be side tracked by what you want to hear.</p>
+                            
+                            <p>If you ask your mom what she thinks of your startup idea, she's going to say it's great because she's your mom. You wouldn't use that as grounds to build your startup, right? (This is a rhetorical question).</p>
+                            
+                            <h2>Practical advice on how to conduct unbiased customer discovery interviews:</h2>
+                            <ul>
+                                <li>Avoid presenting your idea too early (if at all); focus on understanding the customer's needs and problems. Note: If the problem you have decided to focus on doesn't even factor into the conversation, this is grounds to acknowledge that either the problem is not painful enough, or you are not talking to your ICP.</li>
+                                <li>Avoid asking about hypothetical future scenarios and ask instead about past experiences - you are looking to gather concrete information about the customer's behaviors and preferences.</li>
+                                <li>Listen actively and avoid dominating the discussion with your ideas - your goal here is to prevent any biases in the customer's responses.</li>
+                                <li>Be cautious of compliments, they may not indicate genuine interest or commitment and instead be indicative of people-pleasing.</li>
+                                <li>Maintain a casual and engaging demeanor for open communication - the level of relaxedness during the conversation is highly correlated to the length of time the customer will speak.</li>
+                            </ul>
+                            
+                            <h2>Example: Customer Discovery Interview Questions</h2>
+                            <ul>
+                                <li>Tell me how you currently do ___.</li>
+                                <li>How is that process working for you?</li>
+                                <li>If you could do anything to improve your experience with ___ what would it be?</li>
+                                <li>What's the hardest part about ___?</li>
+                                <li>What do you like / dislike about ___?</li>
+                                <li>How have you tried to improve ___?</li>
+                                <li>How often does ___occur?</li>
+                                <li>Tell me how a typical day in your life looks</li>
+                            </ul>
+                            
+                            <h1>First-Time Founder Mistakes & Lessons Learned</h1>
+                            <p>The following example is a continuation of the previous Building Block Series First-Time Founder Mistakes. In Part 1, we spoke about the necessity of conducting the problem validation process to ensure you have discovered a problem worth solving. In this section, we will talk about the issues that arise when you neglect to define an ICP.</p>
+                            
+                            <p><strong>Previously, on Avatar</strong> Here is where we left off:</p>
+                            
+                            <p>During Koala's ideation phase I discovered a challenge the pet industry was facing, and created a problem-hypothesis from the potential second-order effects of the challenge. I assumed that the problem was extremely painful and decided that it was the problem Koala would focus on solving. I completely bypassed the problem validation phase.</p>
+                            
+                            <p>In doing so I never defined, or even tried to find, an ideal customer profile. After making the assumption that the problem I came across was worth solving, I then made up who was most affected by it. I used only data available on the internet to outline this entity - as opposed to customer discovery interviews.</p>
+                            
+                            <p>Because I had not conducted customer discovery interviews with any of the potential entities this problem could have affected - I jumped immediately into the solution-validation phase of ideation. I started building an MVP.</p>
+                            
+                            <h2>Mistakes Made</h2>
+                            <p>Since I had not defined an ideal customer profile, it became extremely easy to fall prey to the idea that this proposed solution was relevant to everyone. In Koala's case, it appeared to me as if the solution could be relevant not only to every pet parent ever, but also veterinarians, pet insurance companies, and even pet food companies.</p>
+                            
+                            <p>Eventually, when I started conducting customer discovery interviews, I violated The Mom Test on all accounts, finding it extremely difficult not to pitch my premeditated solution. Additionally, because I did not have a baseline from which I could compare all interviewees (I never formulated a hypothesis around who my ICP might be) - I became swamped with mixed signals that confused me as to whether or not I was on the right track.</p>
+                            
+                            <p>From a cognitive psychology (and behavioral economics) perspective, I was experiencing the sunk-cost fallacy. I was reluctant to abandon the problem I was solving, and the minimal viable product (MVP) created to represent the solution, because I had given months to its development. I spent so much time on the solution that was Koala, for the problem I assumed was worth solving, that I was determined to see evidence in my belated data collection that my assumptions had been correct (in complete violation of the scientific method).</p>
+                            
+                            <p>To drive the point home, the only people I was speaking with in the beginning stages of Koala's development were advisors and potential business partners. Although highly intelligent and experienced individuals, I started taking advice and implementing strategic initiatives from the data I gathered during these meetings. Essentially, I started charting a course for Koala based on data that was in no way representative of the venture's (still undefined) potential customer.</p>
+                            
+                            <h2>Lessons Learned</h2>
+                            <p>If you've ever seen The Emperor's New Groove, this is where the tape comes to a screeching halt and present-me brings out a bright red sharpie on the whiteboard of past-me's life.</p>
+                            
+                            <h2>WISHD = What I Should Have Done.</h2>
+                            
+                            <p><strong>Mistake:</strong> I relied solely upon market research during Koala's ideation process.</p>
+                            
+                            <p><strong>WISHD:</strong> Try to learn about the industry through 20% market research, and 80% customer discovery interviews. I would have possessed the insights to understand how the market data incorporated itself into the lives of the different players in the space (pet parents, veterinarians, pet insurance companies, etc).</p>
+                            
+                            <p><strong>Mistake:</strong> I did not start conducting interviews until after I had a problem in mind and had allowed myself to get carried away with an idea for a solution.</p>
+                            
+                            <p><strong>WISHD:</strong> Having come across a potentially worthy problem, I should have conducted a minimum of 100 (no, that number is not a typo) customer discovery interviews spread out across different demographics of pet parents, veterinarians, and any other entity the problem might be effecting.</p>
+                            
+                            <p>From there I would have (via The Mom Test methodology) begun pattern-matching, slowly weeding out what type of entity this problem was the most painful for.</p>
+                            
+                            <p>Following the problem validation method, and armed with interview data, I would have been able to discern not only whether the problem was worth solving, but also create an outline of my ideal customer profile.</p>
+                            
+                            <p>During this stage, if I were to have discovered that the problem was not painful enough, or painful only to a very small number of entities (but did not possess the market potential to create a VC-backable startup) I would have been able to swiftly move on.</p>
+                            
+                            <h1>The Importance of Defining an ICP</h1>
+                            <p>Defining an ICP enables you to hone in on the specific persona you are targeting as the recipient of your solution. This persona will determine the company value proposition, go-to-market (GTM) strategy, pricing model, and, in a sense, the entire trajectory of your company.</p>
+                            
+                            <p>🐨 To demonstrate this point, I will provide an example from Koala 🐨</p>
+                            
+                            <p>Koala is a symptom checker for pets, providing personalized health recommendations based on data from similar cases.</p>
+                            
+                            <p>The above one-liner is representative of a solution. The problem is something I had a vague notion of via market research, but which I never fully validated beyond my initial assumptions.</p>
+                            
+                            <p>Additionally, because I did not formulate a hypothesis around the type of entity (ICP) experiencing the problem, I found myself cycling among all possible players in the space who could potentially fill the role.</p>
+                            
+                            <h2>Ideal Customer Profile: Pet Parent</h2>
+                            <p><strong>Market Research:</strong></p>
+                            <ul>
+                                <li>Supply shortage: The number of veterinarians doesn't meet the growing demand, exacerbated by 160.5 million pets in the US and only 77,334 companion animal veterinarians.</li>
+                                <li>Humanization trend: Pet parents increasingly consider their pets as family members, leading to higher expectations for healthcare.</li>
+                                <li>Pet parent desires: A majority (79%) of pet parents in the US express a wish for more knowledge about their pet's health for preventative care, with 76% desiring personalized healthcare for their pets.</li>
+                                <li>Facebook usage: Over half of dog (56.2%) and cat (51.8%) owners receive health information through Facebook groups - these sources are considered useful but not entirely trustworthy by many pet parents.</li>
+                                <li>Cost escalation: Veterinary care costs are rising due to both a shortage of veterinarians in the industry and increased usage of advanced procedures like radiation therapy and CT scans.</li>
+                                <li>Financial strain: Many pet owners underestimate pet care costs, with a reported 47% having pet-related debt.</li>
+                            </ul>
+                            
+                            <p><strong>Hypotheses / Assumptions:</strong></p>
+                            <ul>
+                                <li>A large portion of pet parents are going online to find answers to their pet health questions - but they don't find these sources reliable and wish they were personalized.</li>
+                                <li>Getting instantaneous and personalized pet health information is of vital importance to pet parents.</li>
+                                <li>Pet parents would be willing to use an app that provided them instantaneous and personalized pet health recommendations.</li>
+                                <li>Pet parents would be willing to pay for such an app.</li>
+                            </ul>
+                            
+                            <h2>Ideal Customer Profile: Pet Insurance Company</h2>
+                            <p><strong>Market Research:</strong></p>
+                            <ul>
+                                <li>Wage pressure: Shortage of veterinarians and staff will drive up wages, squeezing practice margins and profitability.</li>
+                                <li>High claims expenses: Claims expenses are expected to constitute a significant portion (60.7%) of total industry revenue, with average loss ratios at approximately 55.0% (according to IBISWorld).</li>
+                                <li>Delayed help: Millennials aged 25 to 40 typically wait nine days before seeking assistance for their pet's health.</li>
+                            </ul>
+                            
+                            <p><strong>Hypotheses / Assumptions:</strong></p>
+                            <ul>
+                                <li>The shortage of veterinarians coupled with expensive veterinary care costs increase the number and cost of claims.</li>
+                                <li>The primary objective of pet insurance companies is revenue growth.</li>
+                                <li>Pet insurance companies aim to attract clients who submit fewer claims (thus increasing their bottom line).</li>
+                                <li>Pet insurance companies would be willing to partner with a technology company to drive lead generation.</li>
+                                <li>Pet insurers offering Koala's app to millennial and Gen Z pet parents enhance their appeal by providing a free pet symptom checker.</li>
+                            </ul>
+                            
+                            <p>The following table showcases the differences in a company's trajectory that arise when "only" the Ideal Customer Profile variable changes. For the purpose of this example, let's assume we are offering the same solution to these two vastly different customer types.</p>
+                            
+                            <p>The purpose of the example above is to showcase the differences that arise in a company's trajectory when you pursue different customers types. I hope I've effectively emphasized the necessity of conducting unbiased customer discovery interviews, and identifying at least one Ideal Customer Profile.</p>
+                            
+                            <h1>Credit</h1>
+                            <p>The content in my newsletter is an amalgamation of the knowledge I've gathered from my own personal experiences making mistakes and learning lessons the hard way, as well as the various organizations and individuals that have provided me an invaluable amount of information, advice, and general knowledge.</p>
+                            
+                            <p>Therefore I extend a very hearty thanks to:</p>
+                            <ul>
+                                <li>Danny Leshem, serial entrepreneur, investor, and lecturer at the Zell Entrepreneurship Program who first introduced me to the book The Mom Test on how to conduct unbiased customer discovery interviews.</li>
+                                <li>The Techstars Seattle Accelerator program in general and T.A. McCann specifically for his lecture on Customer Discovery which first introduced me to the model of defining an Ideal Customer Profile (ICP).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <h3><a href="#" class="link blog-link" data-blog="case-commitment">the case of commitment</a></h3>
+                    <p class="blog-date">april 22, 2024</p>
+                    <p>should you be working on your startup full-time?</p>
+                    <div class="blog-details" id="case-commitment" style="display: none;">
+                        <div class="blog-content">
+                            <h1>In this piece we will cover:</h1>
+                            <ul>
+                                <li>Should You Be Working On Your Startup Full-Time?</li>
+                                <li>Evaluating Your Personal Runway</li>
+                                <li>Navigating an Investor-Friendly Market</li>
+                            </ul>
+                            
+                            <h1>Should You Be Working On Your Startup Full-Time?</h1>
+                            <p>During my time building Koala, I had the opportunity to pitch to many early-stage investors. A common question for them to ask was "Are you working on this full-time?"</p>
+                            
+                            <p>It is logical for an investor to assess how seriously a founder is taking their venture, and one unit of measurement is the amount of time the founder dedicates to said venture.</p>
+                            
+                            <p>In fact, some early-stage investors provide capital to promising founders specifically to enable them to work on their venture full-time.</p>
+                            
+                            <p>Y Combinator's FAQ page addresses this in the statement; "In most cases, the first use of the funding should be for the founders to support themselves so they can work full-time on their company, typically by paying themselves a salary. If you have student loans, a mortgage, etc. you can use what you pay yourself from the YC investment to cover those."</p>
+                            
+                            <p>So, the question remains, should you be working on your startup full-time? I believe the first question to ask yourself is whether you can work on your startup full-time. Let's dive in.</p>
+                            
+                            <h1>Who is this post for?</h1>
+                            <p>This piece will be most relevant for those individuals at the beginning phases of their startup journey. They have an idea in mind, perhaps they have started conducting customer discovery interviews - at a minimum, they know they want to "start something." This person, or team, is thinking about the right moment to make the leap to full-time.</p>
+                            
+                            <p>However, I would argue that this piece is relevant not only for those considering full-time startup commitment, but also for anyone contemplating a significant life change - quitting a job, traveling the world, or pursuing any other endeavor that entails a major shift in day-to-day living.</p>
+                            
+                            <p>In this piece we are exploring the constituents of risk-taking. We will be going over the criteria for evaluating your personal risk-taking capabilities.</p>
+                            
+                            <p>Let's begin by assessing your personal financial situation.</p>
+                            
+                            <h1>What Is Your Runway?</h1>
+                            <p>When a startup raises capital, it achieves what is called a runway - this is the amount of time, in months, a business has before it runs out of cash. It is the countdown for your date with the grim reaper.</p>
+                            
+                            <p>Whether you should work on your startup full-time is dependent upon whether you can afford to work on your startup full-time. Essentially, you have to self-diagnose your personal runway.</p>
+                            
+                            <p>Founders come in all age ranges and financial situations. During my time at Techstars, I met with the classic college dropout living-off-of-energy-drinks-and-pizza founders, and founders in their late 30s and early 40s with a partner and kids. It is reasonable to assume they have different risk-taking capabilities. On a side note, my experience at Techstars was invaluable for a multitude of reasons I will get to in a later piece.</p>
+                            
+                            <p>As part of the Techstars program, I was privy to previous cohort members' founding stories. One founder expressed his gratitude for his wife who financially supported him for almost two years while he was getting his venture off the ground. Another told us how he and his co-founder decided to continue working full-time and treat their venture as a side hustle until they had enough traction to be confident enough to approach investors. Note: Both of these founders were in their 30s at the time of their venture's inception, the latter already a father.</p>
+                            
+                            <p>When considering whether you should work on your startup full-time, ask yourself these questions: What stage of life am I in? What is my current financial situation?</p>
+                            
+                            <h1>Cue le Side Note</h1>
+                            <p>For those people looking to start a venture, it can be hard to predict a realistic timeline for when you graduate from the ideation process.</p>
+                            
+                            <p>Ideation = idea + validation</p>
+                            
+                            <p>This encompasses everything a founder should do to ensure they are on the right track and not wasting precious time pursuing a potentially dead-end idea.</p>
+                            
+                            <h2>The Ideation Process (step-by-step)</h2>
+                            <p>Remember, the ideation process could take anywhere between 2 months to 1 year to complete (or more) - assuming you undergo the process in its entirety, it would include:</p>
+                            <ul>
+                                <li>Finding a problem worth solving</li>
+                                <li>Identifying an ideal customer profile who experiences the problem - this process involves conducting a healthy amount of customer discovery interviews to ensure you are pattern-matching the data and receiving the results necessary to proceed</li>
+                                <li>Potentially scrapping the idea and starting from scratch (too small of a niche, not a painful enough problem) - placing you back at step 1</li>
+                                <li>Building a minimal viable product (MVP) to test your assumptions of a feasible solution to the problem</li>
+                                <li>Driving traffic to your MVP</li>
+                                <li>Conducting customer development interviews on the entities who were exposed to the MVP to gauge their reactions (assessment and feedback) of the solution</li>
+                                <li>Deciding whether to further flesh out the original MVP, or based on the preliminary feedback, whether iterations are in order</li>
+                            </ul>
+                            
+                            <p>"But Ariella, I already have an idea for a solution to a problem I want to solve. I know this problem is prevalent in the market, and I believe my solution is a good candidate to solve it."</p>
+                            
+                            <p>That's great, but everything you said is still in the assumption phase. In relation to building a Venture Capital-backable startup, I want to know:</p>
+                            <ul>
+                                <li>Have you determined that the problem is worth solving?</li>
+                                <li>Have you identified an ideal customer profile that experiences the problem?</li>
+                                <li>Have you built an MVP and gathered data (depending on the product, this can be in the form of sign ups, app downloads, Letters of Intent (LOI)) that represents - even to a small degree - that this is the solution your ICP wants and is willing to pay for?</li>
+                            </ul>
+                            
+                            <p>Point being, if you are in possession of assumptions that have not yet been proven or disproven, you are in the ideation process.</p>
+                            
+                            <p><em>Note: This ideation process framework is one I have denoted as a helpful outline of the stages necessary to understand whether you are running in the right direction. There are numerous cases of founders building extremely successful products without religiously following these steps, but I believe it is helpful to keep this framework in mind - because it is a framework of time.</em></p>
+                            
+                            <h1>A Framework of Time</h1>
+                            <p>What do I mean by this?</p>
+                            
+                            <p>To provide a clarifying example, let's say your current cost of living is $75,000 a year - you have a nice apartment you share with one roommate, can afford to eat out at least once a week, and enjoy the amenities that come with your current position.</p>
+                            
+                            <p>You are living comfortably, but you know you want more. You want to be an entrepreneur and build a startup - you want to bring an innovative product to market that will positively impact the customers it serves.</p>
+                            
+                            <p>Let's say you save up a cash cushion that affords you six months of living (runway) in place of income. Let's say you already have a problem in mind that you want to solve. Now it is time to test this hypothesis. You quit your day job and go full force into the ideation process.</p>
+                            
+                            <p>Before I write an entire novel, I'll get to the point.</p>
+                            
+                            <p>What would happen if you sorely underestimated the factor of time it took to graduate the ideation process? What would you do if you weren't successful in raising preliminary funds to sustain you following the six month mark?</p>
+                            
+                            <h1>Determining Your Financial Situation</h1>
+                            <p>Questions to ask yourself to understand your present financial situation:</p>
+                            <ul>
+                                <li>Do you currently have a secure source of income / cash flow?</li>
+                                <li>What is your current cost of living?</li>
+                                <li>Are you willing to make substantial lifestyle changes to accomodate a more modest mode of living (for example, if your current cost of living is $75K/yr, are you willing and able to live within the means of $45K/yr if it provided you more time to work on your venture)?</li>
+                                <li>[In relation to the example above; would you be willing to leave your current apartment, live with a higher number of roommates, and potentially dwindle your eating-out habit to once a month instead of once a week?]</li>
+                            </ul>
+                            
+                            <p>Examples of the different persona buckets you might fall into:</p>
+                            <ul>
+                                <li>A teenager or young adult (early 20s) who is able to live at home with their parents rent-free</li>
+                                <li>An adult not keen on living with their parents who is able to hunker down, pay for a crummy apartment with six roommates, and photosynthesize for the unforeseeable future</li>
+                                <li>An adult who is fully financially supported by their significant other</li>
+                                <li>An adult who is the sole breadwinner in their family and therefore requires a massive cash cushion before they can even think of leaving their current job</li>
+                            </ul>
+                            
+                            <p>Your financial situation determines your current threshold for working diligently with no income for the untold future. Your personal runway determines how long you will be able to do that.</p>
+                            
+                            <h1>Navigating an Investor-Friendly Market</h1>
+                            <p>Relevant for all founders at all times (but perhaps particularly for those in the beginning phases of their startup journey in the current market) it is imperative to take the economic climate into account as part of your strategic decision-making process.</p>
+                            
+                            <p>The 2021 market saw startup valuations driven up by the combination of cheap capital and a flood of funding from nontraditional and crossover investors. In this environment, founders had the upper hand, enabling them to raise more capital at higher valuations than they otherwise might have, often under highly favorable conditions. This was a founder-friendly market.</p>
+                            
+                            <p>Taking a look at the market today, the availability of capital has significantly decreased. In consequence, startup valuations have declined, and term sheets are now riddled with investor-protective terms such as liquidation multiples, cumulative dividends, and other structural clauses. This is facilitated by reduced investor competition, as nontraditional investors exit the market.</p>
+                            
+                            <p>These terms are more dilutive for founders and existing investors, reflecting a shift towards cautious investment practices in lieu of the slackened due diligence processes and inflated valuations of the 2021 market.</p>
+                            
+                            <p>Essentially, if a founder is strapped for cash and needs to raise or die, they are at a serious disadvantage in terms of their leverage power (which is close to zero) in today's current market.</p>
+                            
+                            <p>For founders seeking to raise initial funding, it is essential to engage in serious self-reflection to assess the necessity of seeking outside capital in the current environment. Independent of the current market conditions, raising capital does not happen overnight, and requires a significant buffer period set aside for the founder to go into fundraising-mode.</p>
+                            
+                            <p>During fundraising-mode, all of the founder's resources (time, energy, and attention) will go toward the fundraising process - leveraging their current network, sending out cold messages, setting up initial meetings, working through the ranks of the investment firm, and (if you make it far enough in the process) negotiating term sheets.</p>
+                            
+                            <p>This was true enough in the market of 2021, albeit with perhaps a shorter timeline between the activation of fundraising-mode and receiving a term sheet.</p>
+                            
+                            <p>In today's market, deciding to fundraise can take a founder out of the building game for months. As such, it is imperative that the founder or founding team understand the pros and cons of relying on outside capital to keep the company afloat.</p>
+                            
+                            <p><em>Note: Funding for a venture (perhaps especially the first check) is provided at the discretion of the investor. You might be able to raise a preliminary FFF round (capital you raise from Friends, Family, and Fools) to sustain you. Alternatively, you might have a serendipitous interaction with an investor that takes a liking to you and believes in your inherent potential and capabilities.</em></p>
+                            
+                            <p>Returning to our main point, the current economic climate not only affects how long you can sustain yourself while working full-time on your startup, it also impacts how quickly you can secure initial funding to maintain this effort.</p>
+                            
+                            <p>For individuals, businesses, and investors alike, economic downturns necessitate risk-mitigation strategies including budget tightening and heightened scrutiny toward new solutions entering a market. The first two entities represent potential customers, the last entity represents your runway-provider - it is essential to understand how each of these units behaves in different economic climates.</p>
+                            
+                            <h1>The Case of Commitment</h1>
+                            <p>I believe the worst situation for an early-stage founder is when strategic business decisions are made on the basis of the founder's personal financial situation.</p>
+                            
+                            <p>So, as someone looking to start a venture, should you work on your startup full-time? Ask yourself this; do you currently have the financial capability to do so?</p>
+                            
+                            <p><em>'Entrepreneur' is just French for 'unemployed.'</em></p>
+                            <p><em>— My brother</em></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <h3><a href="#" class="link blog-link" data-blog="founder-fit">your founder fit</a></h3>
+                    <p class="blog-date">april 26, 2024</p>
+                    <p>my observations on the various founder types</p>
+                    <div class="blog-details" id="founder-fit" style="display: none;">
+                        <div class="blog-content">
+                            <h1>What kind of founder are you?</h1>
+                            <p>I've observed that founders can be distinctly categorized into different "types" based on their paths to building companies.</p>
+                            
+                            <h1>The Visionary</h1>
+                            <p>This is the type of founder who solves a problem you didn't know you had. This founder laughs in the face of the "traditional" startup building methodology - problem validation, speaking with potential customers, ensuring your problem is worth solving, etc. A main component that the Visionary bypasses is that of collecting customer feedback.</p>
+                            
+                            <p>A classic example is Steve Jobs dismissing the standard practice of keyboards for multi-touch screens on the first iPhone.</p>
+                            
+                            <h1>"X" Turned Founder</h1>
+                            <p>I will make a distinction pertaining to time-in-industry between this founder and the founders who frequent the two subsequent categories. The "X" turned founder is someone who has spent 10+ years in an industry and has experienced the problem they want to solve first-hand.</p>
+                            
+                            <p>An example here is any well established professional who "turns into" a founder - hence the "X" turned founder. For example, the Psychologist-turned-founder, Medical-Doctor-turned-founder, etc.</p>
+                            
+                            <p>There is a major advantage to this founder category because usually, after so much time in industry, the founder has a competitive network to leverage for pilot programs, customer discovery interviews, and sometimes even initial funding.</p>
+                            
+                            <h1>The Stumbler</h1>
+                            <p>The one who stumbles upon a problem - this founder does not need to have many years of experience in the field they are in, it could be just 1 or 2. Oftentimes this is someone who happens to be in the right place at the right time, is receptive to the problem before them, and bold enough to question the status quo. These founders are usually younger and often spot a problem in their work environment.</p>
+                            
+                            <p>A great example is Vlad Magdalin, the founder and CEO of Webflow. Magdalin was working as a software engineer at a web services company translating the client's vision into code for web pages. This not only took him hours, but his company charged its clients an astronomical fee. This was a serious issue - people who lacked basic coding knowledge were being charged an arm and a leg (Magdalin believed, unnecessarily). He wanted to change that. This is the origin story of Webflow (link to the podcast where Magdalin discusses this).</p>
+                            
+                            <h1>The One Who Experiences the Problem First-Hand</h1>
+                            <p>This is the type of founder who solves a problem they have experienced, or watched someone close to them experience, first-hand. This founder is different from the previous two because they do not necessarily require time in industry to become aware of the problem - they experience the problem personally.</p>
+                            
+                            <p>This was the case for Erin Quick, Co-Founder and CEO of PairTree. Quick experienced reproductive issues that resulted in her and her husband spending more than $70,000 on artificial inseminations and in vitro fertilization, but the process ultimately resulted in three miscarriages. Afterward, Quick said she was emotionally, physically and financially broken. She eventually decided to adopt, thinking the process would be easy, but it turned out to be a long and arduous.</p>
+                            
+                            <p>PairTree was founded to help its users navigate the private, domestic adoption process - connecting adopting families with a birth mother that's right for them and vice versa (link to an article covering PairTree).</p>
+                            
+                            <h1>The Problem Seeker</h1>
+                            <p>This is the category I belonged to when building Koala. This is by no means a bad place to be, but I'd say it comes with the most challenges - purely because the founders in this category have to establish, from the ground up, what founders in categories 2-4 are already privy to before they begin their founder journey.</p>
+                            
+                            <p>Depending on which category you belong to, this could include:</p>
+                            <ul>
+                                <li>Industry expertise derived from years of experience in one specific domain.</li>
+                                <li>Knowledge that a problem is worth solving (highly painful to those entities who experience it).</li>
+                                <li>A network to leverage - in the case of the "X" turned founder this could be the entities they previously worked with.</li>
+                                <li>An outline / knowledge of the ideal customer profile - in Magdalin's example, these were the current customers of his employer; in Quick's example, these were single parents or families likes herself who wanted to adopt a child in a seamless manner.</li>
+                            </ul>
+                            
+                            <p>This founder is looking for a problem to solve. It can be done, but not without concerted patience in the search to find a problem worth solving. You can learn more about how to find a problem worth solving in the Building Blocks series.</p>
+                            
+                            <p>These categories are by no means exhaustive, nor are they necessarily mutually exclusive.</p>
+                            
+                            <p>Additionally, this is not a hierarchical construct of future success - a founder who is of category 2 is not more likely to succeed than a founder of category 4.</p>
+                            
+                            <p>But I believe it can be a good exercise to learn which type of founder you are - thus enabling you to understand what leverage you have.</p>
+                            
+                            <p>For example (and to reiterate), if you are of category 2, then you'll likely have the ability to take advantage of your industry network for the purpose of pilot programs, customer development interviews, and in some cases even funding. All of which you should leverage to your benefit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Books Section -->
+            <div class="content-section" id="books" style="display: none;">
+                <h2>books:</h2>
+                
+                <div class="books-item">
+                    <h3><a href="#" class="link">hyperion (book 1 of hyperion cantos)</a></h3>
+                    <p class="book-author">dan simmons</p>
+                    <p style="color: var(--text-secondary);"><em>Martin Silenus: "You said seventy million were planned."<br>
+Tyrena: "Yeah, well, we changed our minds after Transline's resident AI read it."<br>
+Silenus: "Even the AI hated it?"<br>
+Tyrena: "The AI loved it. That's when we knew for sure that people were going to hate it."</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">the fall of hyperion (book 2 of hyperion cantos)</a></h3>
+                    <p class="book-author">dan simmons</p>
+                    <p style="color: var(--text-secondary);"><em>"My God," whispered Meina Gladstone, looking down at the body of Admiral Singh. "I'm doing all this on the strength of a dream."<br>
+"Sometimes," said General Morpurgo, taking her hand, "dreams are all that separate us from the machines."</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">foundation</a></h3>
+                    <p class="book-author">isaac asimov</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">the three-body problem (book 1 of the series)</a></h3>
+                    <p class="book-author">cixin liu</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">the dark forest (book 2 of the three-body problem series)</a></h3>
+                    <p class="book-author">cixin liu</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">death's end (book 3 of the three-body problem series)</a></h3>
+                    <p class="book-author">cixin liu</p>
+                    <p style="color: var(--text-secondary);"><em>The ultimate fate of all intelligent beings has always been to become as grand as their thoughts.</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">children of time trilogy</a></h3>
+                    <p class="book-author">adrian tchaikovsky</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">project hail mary</a></h3>
+                    <p class="book-author">andy weir</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">dune series</a></h3>
+                    <p class="book-author">frank herbert</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">the way of kings (book 1 of the stormlight archive)</a></h3>
+                    <p class="book-author">brandon sanderson</p>
+                    <p style="color: var(--text-secondary);"><em>Strength does not make one capable of rule; it makes one capable of service.</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">words of radiance (book 2 of the stormlight archive)</a></h3>
+                    <p class="book-author">brandon sanderson</p>
+                    <p style="color: var(--text-secondary);"><em>As I fear not a child with a weapon he cannot lift, I will never fear the mind of a man who does not think.</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">oathbringer (book 3 of the stormlight archive)</a></h3>
+                    <p class="book-author">brandon sanderson</p>
+                    <p style="color: var(--text-secondary);"><em>The trick to happiness wasn't in freezing every momentary pleasure and clinging to each one, but in ensuring one's life would produce many future moments to anticipate.</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">piranesi</a></h3>
+                    <p class="book-author">susanna clarke</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">jonathan strange and mr norrell</a></h3>
+                    <p class="book-author">susanna clarke</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">pride and prejudice</a></h3>
+                    <p class="book-author">jane austen</p>
+                    <p style="color: var(--text-secondary);"><em>There is a stubbornness about me that never can bear to be frightened at the will of others. My courage always rises at every attempt to intimidate me.</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">emma</a></h3>
+                    <p class="book-author">jane austen</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">little women</a></h3>
+                    <p class="book-author">louisa may alcott</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">dune (book 1 of dune)</a></h3>
+                    <p class="book-author">frank herbert</p>
+                    <p style="color: var(--text-secondary);"><em>I must not fear.<br>
+Fear is the mind-killer.<br>
+Fear is the little-death that brings total obliteration.<br>
+I will face my fear.<br>
+I will permit it to pass over me and through me.<br>
+And when it has gone past, I will turn the inner eye to see its path.<br>
+Where the fear has gone there will be nothing. Only I will remain.</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">dune messiah (book 2 of dune)</a></h3>
+                    <p class="book-author">frank herbert</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">children of dune (book 3 of dune)</a></h3>
+                    <p class="book-author">frank herbert</p>
+                    <p style="color: var(--text-secondary);"><em>To suspect your own mortality is to know the beginning of terror; to learn irrefutably that you are mortal is to know the end of terror.</em></p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">god emperor of dune (book 4 of dune)</a></h3>
+                    <p class="book-author">frank herbert</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">heretics of dune (book 5 of dune)</a></h3>
+                    <p class="book-author">frank herbert</p>
+                </div>
+                <div class="books-item">
+                    <h3><a href="#" class="link">chapterhouse: dune (book 6 of dune)</a></h3>
+                    <p class="book-author">frank herbert</p>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Social Links -->
+        <footer class="social-links">
+            <a href="mailto:your.email@example.com" class="social-link">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ariellachorn/" class="social-link" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/yourusername" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

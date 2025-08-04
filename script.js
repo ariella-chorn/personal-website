@@ -173,9 +173,70 @@ document.querySelectorAll('.blog-link').forEach(link => {
                 detail.style.display = 'none';
             });
             
-            // Show the clicked blog details if it wasn't visible
+            // Get all blog items (the clickable links)
+            const allBlogItems = document.querySelectorAll('.blog-item');
+            
             if (!isVisible) {
+                // Show the clicked blog details
                 blogDetails.style.display = 'block';
+                
+                // Hide all other blog items
+                allBlogItems.forEach(item => {
+                    if (!item.contains(this)) {
+                        item.style.display = 'none';
+                    }
+                });
+                
+                // Add back to top link after the blog details
+                const backToTopLink = document.createElement('div');
+                backToTopLink.className = 'back-to-top';
+                backToTopLink.innerHTML = '<a href="#" class="link">← back to top</a>';
+                backToTopLink.style.marginTop = '30px';
+                backToTopLink.style.textAlign = 'center';
+                
+                // Remove any existing back to top link
+                const existingBackToTop = document.querySelector('.back-to-top');
+                if (existingBackToTop) {
+                    existingBackToTop.remove();
+                }
+                
+                // Add the new back to top link
+                blogDetails.appendChild(backToTopLink);
+                
+                // Add click handler for back to top
+                backToTopLink.querySelector('a').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Hide the blog details
+                    blogDetails.style.display = 'none';
+                    
+                    // Show all blog items again
+                    allBlogItems.forEach(item => {
+                        item.style.display = 'block';
+                    });
+                    
+                    // Remove the back to top link
+                    backToTopLink.remove();
+                    
+                    // Scroll to top of blog section
+                    const blogSection = document.getElementById('blog');
+                    if (blogSection) {
+                        blogSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+                
+            } else {
+                // If the blog was already visible, hide it and show all blog items
+                blogDetails.style.display = 'none';
+                allBlogItems.forEach(item => {
+                    item.style.display = 'block';
+                });
+                
+                // Remove the back to top link
+                const existingBackToTop = document.querySelector('.back-to-top');
+                if (existingBackToTop) {
+                    existingBackToTop.remove();
+                }
             }
         }
     });

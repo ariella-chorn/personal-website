@@ -190,7 +190,7 @@ document.querySelectorAll('.blog-link').forEach(link => {
                 // Add back to top link after the blog details
                 const backToTopLink = document.createElement('div');
                 backToTopLink.className = 'back-to-top';
-                backToTopLink.innerHTML = '<a href="#" class="link">← back to top</a>';
+                backToTopLink.innerHTML = '<a href="#" class="link">↑ back to top</a>';
                 backToTopLink.style.marginTop = '30px';
                 backToTopLink.style.textAlign = 'center';
                 
